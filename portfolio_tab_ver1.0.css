@@ -1,0 +1,152 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1160px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .header-sns img {
+    width: 33px;
+    height: 33px;
+  }
+
+  .header-sns {
+    position: absolute;
+  }
+
+  .header-logo img {
+    height: 40px;
+    width: 45px;
+  }
+
+  .logo {
+    font-size: 45px;
+  }
+
+  .menu {
+    position: absolute;
+    font-size: 28px;
+  }
+
+  .top-wrapper {
+    position: relative;
+    padding-top: 45%;
+    margin-bottom: 120px;
+  }
+
+  .top-wrapper h1 {
+    position: absolute;
+    font-size: 30px;
+  }
+
+  .pl-wrapper {
+    height: 620px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .title-text {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .pl_img-container {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+  }
+
+  .pl-wrapper h3 {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    text-align: left;
+    width: 330px;
+  }
+
+  .skill-wrapper {
+    height: 620px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .skill-container {
+    position: absolute;
+    width: 320px;
+    top: 35%;
+    left: 12%;
+  }
+
+  .skill-container img {
+    height: 80px;
+    width: 80px;
+    float: none;
+  }
+
+  .skill-wrapper h3 {
+    width: 245px;
+    position: absolute;
+    top: 30%;
+    right: 12%;
+    text-align: left;
+  }
+
+  .ct_img-container {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  .contact-form {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    width: 400px;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  .footer-wrapper {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 5%;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+  }
+}

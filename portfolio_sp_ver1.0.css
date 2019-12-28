@@ -1,0 +1,164 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 761px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .header-sns img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header-logo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .header-sns {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    margin: auto;
+    font-size: 23px;
+  }
+
+  .menu li {
+    font-size: 25px;
+    float: none;
+    display: inline-block;
+  }
+
+  .btn-profile,
+  .btn-skillset {
+    margin-right: 15px;
+  }
+
+  .top-wrapper {
+    position: relative;
+    padding-top: 50%;
+  }
+
+  .top-wrapper h1 {
+    position: absolute;
+    font-size: 25px;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .pl-wrapper {
+    height: 620px;
+    position: relative;
+    text-align: center;
+  }
+
+  .title-text {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 35px;
+    margin: auto;
+  }
+
+  .pl_img-container {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .pl_img-container img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .pl-wrapper h3 {
+    width: 232px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .skill-wrapper {
+    height: 700px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .skill-container {
+    position: absolute;
+    width: 240px;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .skill-container img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .skill-wrapper h3 {
+    width: 218px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .ct_img-container img {
+    height: 100px;
+    width: 100px;
+  }
+
+  input,
+  textarea {
+    width: 200px;
+  }
+  .footer-wrapper {
+    font-size: 8px;
+  }
+}
