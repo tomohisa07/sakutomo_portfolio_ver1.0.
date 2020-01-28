@@ -5,15 +5,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sakutomo Studio.</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="portfolio_pc_ver1.0.css" />
   <link rel="stylesheet" href="portfolio_tab_ver1.0.css" />
   <link rel="stylesheet" href="portfolio_sp_ver1.0.css" />
 </head>
 
+
+
 <body>
   <header>
     <div class="header-logo">
-      <a href="#">
+      <a href="https://github.com/sakutomo07">
         <img src="logo.png" class="logo" />
         <span class="logo">Sakutomo Studio.</span>
       </a>
@@ -28,20 +32,19 @@
     </div>
     <div class="menu btn">
       <ul>
-        <li><a href="#" class="btn btn-profile">Profile</a></li>
-        <li><a href="#" class="btn btn-skillset">SkillSet</a></li>
-        <li><a href="#" class="btn btn-contact">Contact</a></li>
+        <li><a href="#Profile" class="btn btn-profile">Profile</a></li>
+        <li><a href="#SkillSet" class="btn btn-skillset">SkillSet</a></li>
+        <li><a href="#Contact" class="btn btn-contact">Contact</a></li>
       </ul>
     </div>
   </header>
-
   <div class="main css-fade">
     <div class="top-wrapper">
       <h1>Simpler is usually better.</h1>
     </div>
 
     <div class="pl-wrapper">
-      <h1 class="title-text">Profile</h1>
+      <h1 class="title-text" id="Profile">Profile</h1>
       <div class="pl_img-container">
         <img src="desktop-solid.svg" />
       </div>
@@ -61,7 +64,7 @@
       </h3>
     </div>
     <div class="skill-wrapper">
-      <h1 class="title-text">SkillSet</h1>
+      <h1 class="title-text" id="SkillSet">SkillSet</h1>
       <div class="skill-container">
         <img src="html-5.svg" />
         <img src="css-3.svg" />
@@ -83,7 +86,7 @@
       </h3>
     </div>
     <div class="contact-wrapper">
-      <h1 class="title-text">Contact</h1>
+      <h1 class="title-text" id="Contact">Contact</h1>
       <div class="ct_img-container">
         <img src="envelope-regular.svg" />
       </div>
